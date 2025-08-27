@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#pag3{
+    width: 100%;
+    height: 150vh;
+    background-color: #8C9BAC;
+}
+#menu{
+    position: sticky;
+    height: 10vh;
+    width: 100%;
+    background-color: #1D375C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    padding-left: 10%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    top: 0;
+    
+}
+#logo{
+    display: flex;
+    
+}
+.imglogo{
+    border-radius: 4vh;
+    display: flex;
+    height: 5vh;
+    width: 20vh;
+    object-fit:cover;
+
+}
+#itens{
+    padding-left: 10%;
+    width: 80%;
+    gap: 10%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+}
+.pesquisa{
+    height: 4vh;
+
+    border-radius: 4vh;
+    display: flex;
+
+}
+.lista{
+    padding-left: 20%;
+    gap: 30%;
+    margin: 0;
+    color: white;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   text-decoration: none ;
+   list-style: none;
+   font-size: 18px;
+   
+}
+.lista li a{
+    text-decoration: none;
+    color: white;
+}
+section h1{
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 36px;
+}
+#contato{
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+.contato-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1.7px solid black;
+}   
+#contato-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    padding: 10px;
+
+    border-radius: 4px;
+    
+    color: black;
+}
+.contato-itemforms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #1D375C;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 5vh;
+    
+}
+.footer-item{
+    color: white;
+    margin: 0 20px;
+    font-weight: 400; 
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    height: 3vh;
+}
+.btn-enviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+.btn{
+    width: 20vh;
+    height: 5vh;
+    border-radius: 4vh;
+    background-color: #8C9BAC;
+    border: none;
+    margin-top: 2%;
+    font-weight: 600;
+    color: white;
+}
+#btn-enviar:hover{
+    background-color: #1D375C;
+    cursor: pointer;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 3vh;
+}
+.iconinsta{
+    width: 7vh;
+    height: 7vh;
+    margin: 0 10px;
+    background-color: #1D375C;
+}
+.iconface{
+    width: 10vh;
+    height: 7vh;
+    margin: 0 10px;
+    background-color: #1D375C;
+}
+.icontwitter{
+    width: 5vh;
+    height: 5vh;
+    margin: 0 10px;
+    background-color: #1D375C;
+}
+.iconlinkedin{
+    width: 10vh;
+    height: 10vh;
+    margin: 0 10px;
+    background-color: #1D375C;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Ajuda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+     padding: 0;
+}
+.listafooter{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    list-style: none;
+    padding-left: 5vh;
+}
+.listafooter li {
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+}
+.listafooter li a {
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+}
